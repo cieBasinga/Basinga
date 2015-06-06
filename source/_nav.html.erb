@@ -1,0 +1,25 @@
+<nav class="navbar-basinga">
+  <div class='container-fluid'>
+    <div class='row-fluid'>
+      <div class='col-xs-12'>
+        <ul class='pull-right' role='menu'>
+          <% if I18n.locale == :en %>
+            <li>
+              <%= link_to "Fr", "#{current_page.url.gsub('en', 'fr')}"%>
+            <% else %>
+            <li>
+              <%= link_to "En", "#{current_page.url.gsub('fr', 'en')}"%>
+            </li>
+          <% end %>
+        </ul>
+        <%= image_tag 'logo/logo_def_noir-04.png', id: 'logo'%>
+      <ul id='navigation'>
+        <li><%= link_to "#{I18n.t(:about)}", "/#{I18n.locale}/home.html"%></li>
+        <li><%= link_to "#{I18n.t(:production)}", "/#{I18n.locale}/gallery.html"%></li>
+        <li><%= link_to "#{I18n.t(:news)}", "/#{I18n.locale}/blog.html"%></li>
+        <li><%= link_to "#{I18n.t(:contact)}", "/#{I18n.locale}/contact.html"%></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</nav>

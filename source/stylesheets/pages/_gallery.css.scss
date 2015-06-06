@@ -1,0 +1,88 @@
+
+
+    // fin nav alter
+
+.gallery__table {
+  margin: 0 auto;
+}
+
+.picture {
+  padding: 0;
+}
+.btn-group {
+  padding-bottom:30px;
+}
+
+.image-wrapper {
+  position: relative;
+  max-width:400px;
+}
+
+.image-wrapper span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  top:0;
+  left: 0;
+  right: 0;
+  max-width: 400px;
+  max-height: 400px;;
+  background: rgba(117,70,52,0.8);
+}
+
+.image-wrapper span{
+  color: white;
+}
+
+.image-wrapper:hover span {
+  display: block;
+}
+
+.caption {
+  width: 100%;
+     height: 10vw;
+     position: absolute;
+     top:0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+
+     margin: auto;
+}
+//resize font-size with browser
+.slider-wrapper {
+  font-size: 2vmin;
+}
+
+// modal from scratch
+
+.next-slide{
+  padding-left: 5px;
+  padding-right: 50px;
+}
+
+// class to show modal
+.modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999999;
+  background-color: #CCC8C5;
+  background-image: linear-gradient(
+   #FFFFFF,
+   #dfdddb
+   );
+}
+
+.left {
+  float:left;
+  max-height: 400px;
+  margin: 3px;
+}
+
+.modal__header{
+  background-color: white;
+  padding-bottom: 5px;
+}

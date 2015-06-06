@@ -1,0 +1,13 @@
+//= require jquery
+//= require bootstrap-sprockets
+//= require jquery.fitvids
+//= require jquery.bxslider
+//= require moment
+//= require fullcalendar
+//= require en-gb
+//= require fr
+//= require gcal
+//= require custom
+//= require vminpoly
+//= require background_size_emu
+//= require_tree .

@@ -1,0 +1,59 @@
+
+// video#bgvid {
+// position: fixed; top: 0; right: 0;
+// min-width: 100%; min-height: 100%;
+// width: auto; height: auto; z-index: 9999;
+// background: url(funambule_a_calais_static.png) no-repeat;
+// background-size: cover;
+// }
+#index__video {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  background-color:black;
+  z-index: 9999;
+}
+
+#index__photo {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  background-color:black;
+  z-index: 9999;
+}
+
+#index{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999998;
+  background-color: black;
+}
+
+#white-logo{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: auto;
+  max-height: 30vw;
+  padding-bottom: 5vw;
+   z-index: 99999;
+}
+
+#enter {
+    position: absolute;
+    z-index: 99999;
+}
+
+#enter > p {
+  color: white;
+  font: italic 7vmin BauerBodoni-italic;
+}

@@ -1,0 +1,24 @@
+<% link_to "fr/home.html" do %>
+  <div id='index'>
+    <div class='visible-sm visible-md visible-lg'>
+  <video autoplay id="index__video">
+    <source src="video/Basinga_preambule_final.mp4" type="video/mp4">
+      <%= image_tag '../video/funambule.jpg', class: 'img-responsive' %>
+  </video>
+  </div>
+    <div class='visible-xs'>
+      <%= image_tag '../video/funambule.jpg', class: 'img-responsive', id: 'index__photo' %>
+    </div>
+    </div>
+<% end %>
+<%= image_tag '../video/funambule.jpg', class: 'img-responsive' %>
+<script type='text/javascript'>
+
+$(document).ready( function () {
+video = document.getElementById('index__video');
+video.addEventListener('ended',function() {
+window.location.href = 'fr/home.html';})
+});
+
+</script>
+

@@ -1,0 +1,25 @@
+/* -------------------------------------
+ * Base elements style (h1, h2, p, a, ul..)
+ * ============= IMPORTANT =============
+ * Before writing in this file, look if there is not
+ * already a Bootstrap SCSS variable that does the same job
+ * ------------------------------------- */
+
+h1 {
+  font: italic 7vmin BauerBodoni-italic;
+}
+
+h2 {
+  font-family: BauerBodoni-italic, sans-serif;
+  font-size: 5vmin;
+}
+
+p{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2.5vmin;
+  font-weigth: 400;
+}
+
+body{
+  overflow-x: hidden;
+}

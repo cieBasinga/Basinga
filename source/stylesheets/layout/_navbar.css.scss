@@ -1,0 +1,36 @@
+.navbar-basinga {
+  background-color: transparent;
+  position: absolute;
+  top: 0; left: 0; right:0;
+  z-index: 999;
+}
+.navbar-basinga ul {
+  padding-top:2vw;
+  text-align: center;
+};
+.navbar-basinga ul li {
+  display: inline-block;
+  list-style: none; /* pour enlever les puces sur IE7 */
+  width: 20%;
+};
+.navbar-basinga ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2vmin;
+  font-weight: 400;
+};
+
+.navbar-basinga ul li a:hover {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2vmin;
+  font-weight: 600;
+};
+
+#logo {
+  display:block;
+  margin: 0 auto;
+  width: auto;
+  max-height: 14vw;
+  padding-bottom:2vw
+}

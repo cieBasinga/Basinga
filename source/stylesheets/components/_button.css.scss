@@ -1,0 +1,58 @@
+.btn-gallery, .btn-actu {
+  // border: solid 1px #636463;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-size: 2.5vmin;
+  font-family: 'Advent Pro', sans-serif;
+  color: #636463;
+
+}
+
+.btn-gallery:hover, .btn-actu:hover {
+  color: black;
+  border-bottom: #636463 1px;
+}
+
+.btn-gallery.active, .btn-actu.active {
+  background-color: #636463;
+  color: white;
+}
+
+// .btn-gallery {
+//   border: solid 1px #636463;
+//   margin-right: 10px;
+//   margin-left: 10px;
+//   padding-top: 2px;
+//   padding-bottom: 2px;
+//   font-size: 2.5vmin;
+//   font-family: 'Advent Pro', sans-serif;
+//   color: #636463;
+
+// }
+
+// .btn-gallery:hover {
+//   color: white;
+// }
+
+// .btn-gallery.active {
+//   background-color: #636463;
+//   color: white;
+// }
+
+// navabar alternative
+.filter-options {
+        float: none;
+        text-align: center;
+        border-top: 1px #636463 solid;
+    }
+    .filter-options > li {
+        float: none;
+    }
+    .filter-options > li {
+        display: inline;
+    }
+    .filter-options > li > a {
+        display: inline-block;
+    }

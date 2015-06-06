@@ -1,0 +1,53 @@
+title: "L’ÉQUIPE"
+sections:
+  founders: "La Compagnie a été créé à Sauve en Janvier 2014 à l’initiative de :"
+  artntech: "Équipe artistique et technique :"
+  thanks: "Mais aussi avec l’aide de :"
+founders:
+  - name: "Tatiana-Mosio BONGONGA"
+    description: "Co/fondatrice, Direction Artistique Funambule"
+    photo: Tatiana-MosioBONGONGA.jpg
+  - name: "Émilie PÉCUNIA"
+    description: "Co/fondatrice, Régie générale"
+    photo: EmilePECUNIA.jpeg
+  - name: "Jan NAETS"
+    description: "Co/fondateur, Direction Technique et recherche de nouveaux matériaux"
+    photo: JanNAETS.jpeg
+  - name: "Fabien GRANIER"
+    description: "Production, Diffusion"
+    photo: FabienGranier.jpeg
+artntech:
+  - name: "Cyriaque Kombé BONGONGA!"
+    description: "Guitariste, Chanteur Direction Musicale"
+    photo: CyriaqueKombeBONGONGA.jpeg
+  - name: "Pascale VALENTA"
+    description: "Chanteuse, Direction Musicale"
+    photo: PascaleVALENTA.jpeg
+  - name: "Antonin LEYMARIE"
+    description: "Percussion, Batterie, Direction Musicale"
+    photo: AntoninLEYMARIE.jpeg
+  - name: "Anna RODRIGUEZ"
+    description: "Chorégraphe"
+    photo: AnnaRODRIGUEZ.jpeg
+  - name: "Solenne CAPMAS"
+    description: "Costumes, Dessins"
+    photo: SolenneCAPMAS.jpeg
+  - name: "Max LEYNELE"
+    description: "Son"
+    photo: MaxLENEYLE.jpeg
+  - name: "Frédéric MÉRAT"
+    description: "Créateur lumière"
+    photo: FrederiqueMERAT.jpeg
+thanks:
+  - name: "Olivier ROUSTAN"
+    description: "Technicien, Funambule"
+    photo: OlivierROUSTAN.jpeg
+  - name: "Jean-Christophe CAUMES"
+    description: "Technicien, Construction"
+    photo: Jean-ChristopheCAUMES.jpeg
+  - name: "Sophie DEL CASTELBAJAC"
+    description: "Écriture"
+    photo: SophieDeCastelBajac.jpeg
+  - name: "Bruno HOCQUARD"
+    description: "Teaser"
+    photo: BrunoHOCQUARD.jpeg

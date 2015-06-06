@@ -1,0 +1,111 @@
+.custom-modal {
+  h2 {
+  font-family: BauerBodoni-italic, sans-serif;
+  font-style: italic;
+  font-size: 4vmin;
+  };
+  font-size: 2.5vmin;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.no-padding-left {
+  padding-left: 0px;
+}
+
+.spacer {
+  height: 10vmin;
+}
+
+#team {
+  background-color: #d0d0cf;
+  background-image: linear-gradient(
+    #dfdddb,
+    #FFFFFF 30%
+    )
+}
+
+#title, #subtitle {
+  font: italic 4vmin BauerBodoni-italic;
+}
+
+#about-basinga{
+  font: 2vmin;
+  font-family: 'Advent Pro', sans-serif;
+  z-index:9999;
+}
+
+.member {
+  position: relative;
+}
+
+.member span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  top:0;
+  left: 0;
+  right: 0;
+}
+
+.member:hover span {
+  display:block;
+}
+
+.member-picture {
+  max-height: 185px;
+  margin: auto;
+  padding-bottom:1vw;
+}
+
+.member-caption {
+  max-height: 185px;
+  margin: auto;
+  padding-bottom:1vw;
+  zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.8;
+}
+
+.member-name {
+  font: 2.5vmin;
+  font-family: 'Advent Pro', sans-serif;
+  margin-bottom: 0;
+}
+
+.member-description {
+  font: italic 1.7vmin BauerBodoni-italic;
+}
+
+.popover-content {
+    font: 1.8vmin;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.popover {
+  max-width: 70%;
+  border-radius: 5px;
+}
+
+#pres-text{
+  position: relative;
+}
+
+#about{
+  position: fixed;
+}
+
+#pres-image{
+  display: block;
+      width: 100%;
+      max-width: 2550px; /* corresponds to max height of 450px */
+      margin: 0 auto;
+}
+
+
+
+#big-title {
+  position: absolute;
+  font-family: BauerBodoni-italic;
+  font-style: italic;
+  font-size: 10vmin ;
+}

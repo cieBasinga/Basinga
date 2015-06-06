@@ -1,0 +1,36 @@
+#contact {
+  background-color: #d0d0cf;
+  background-image: linear-gradient(
+    #FFFFFF 30%,
+    #dfdddb
+    );
+}
+
+#contact--wrapper{
+  position: relative;
+}
+
+#contact--image{
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact--text {
+  padding-bottom: 5vw;
+}
+
+#contact--addresses {
+  background: rgba(255,255,255,0.8);
+  margin-top: 5vmin;
+  padding-top: 5vmin;
+  padding-bottom: 1vw;
+  padding-right: 1vmin;
+  padding-left: 1vmin;
+  max-height: 80%;
+}
+
+#contact--addresses > p {
+  font: 2vmin;
+}
