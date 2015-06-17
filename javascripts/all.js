@@ -27683,11 +27683,15 @@ GetBlog = function (url) {
           $.each(photos, function(index) {
             photoLinks += "<img class='blog--image img-responsive' src=" + p.photos[index].original_size.url +">"
           });
-          text+= "<div class='blog__post'><h1>"+p.slug+"</h1>"+photoLinks+"</div>"
+          text+= "<div class='blog__post'>"+photoLinks+p.caption+"</div>"
          }
          // si le post est un post video
          else if (p.type == 'video') {
-          text+= "<div class='blog__post blog--video'><h1>" + p.slug + "</h1>"+p.player[2].embed_code+"</div>"
+          console.log(p);
+          text+= "<div class='blog__post blog--video'><h1>" + p.slug + "</h1>";
+          text += p.player[2]['embed_code'];
+          text+=p.caption;
+          text += "</div>"
          }
          // si post audio
          else if (p.type == 'audio') {
@@ -27708,10 +27712,11 @@ GetBlog = function (url) {
          }
          // si post citation
          else if (p.type == 'quote') {
-          text += "<div class='blog__post'><p class='quote'>'"+p.text+"'<p class='quote--source'>-'"+p.source+"'</p></p></div>"
+          text += "<div class='blog__post blog--quote'><p class='quote'>'"+p.text+"'<p class='quote--source'>-'"+p.source+"'</p></p></div>"
          }
         }
         $('.tumblr').append(text);
+        $('figure').fitVids();
         $('.blog--video').fitVids();
         $('iframe','.blog--audio').css({
           'width': '90%',

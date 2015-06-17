@@ -9414,6 +9414,22 @@ body {
   border-radius: 15px;
   margin-left: auto; }
 
+/* line 12, /Users/NathanChalot/code/NathanChalot/basingalive/source/stylesheets/pages/_blog.css.scss */
+.blog--image {
+  margin: 0 auto; }
+
+/* line 16, /Users/NathanChalot/code/NathanChalot/basingalive/source/stylesheets/pages/_blog.css.scss */
+.blog--quote h2 {
+  font-size: 2.5vmin; }
+
+/* line 20, /Users/NathanChalot/code/NathanChalot/basingalive/source/stylesheets/pages/_blog.css.scss */
+.blog--video .tmblr-embed {
+  margin: 15px 0; }
+
+/* line 24, /Users/NathanChalot/code/NathanChalot/basingalive/source/stylesheets/pages/_blog.css.scss */
+.blog__post img {
+  max-width: 100%; }
+
 /* line 1, /Users/NathanChalot/code/NathanChalot/basingalive/source/stylesheets/pages/_contact.css.scss */
 #contact {
   background-color: #d0d0cf;
